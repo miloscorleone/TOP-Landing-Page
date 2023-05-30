@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+
+    margin: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7eb;
+}
+
+a:hover {
+    color: #838383;
+}
+
+p {
+
+    font-size: 18px;
+    color: #E5E7eb;
+    width: auto;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    background-color: #0150cf;
+    color: #E5E7eb;
+}
+
+button:hover {
+    background-color: #3882f6;
+}
+
+.main-img {
+    flex-shrink: 1;
+    width: 400px;
+    height: auto;
+
+}
+
+.header {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/main1.jpg);
+    background-size: cover;
+    padding: 0 200px 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.hero {
+
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
